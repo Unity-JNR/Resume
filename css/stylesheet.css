@@ -4,6 +4,8 @@ body{
   font-family: sans-serif;
   font-size:110%;
   background-color:cornflowerblue;
+  display: flex;
+  flex-direction: column;
 }
 
 a:hover{color: whitesmoke;}
@@ -11,10 +13,11 @@ a:hover{color: whitesmoke;}
 header {
   text-align: center;
   background-color: lightblue;
+  justify-content: center;
 }
 #heading{
   font-family: sans-serif;
-  font-size: 110%;
+  font-size: 100%;
 }
 #profilephoto{width:30% ;
 height: 30%;
@@ -22,6 +25,11 @@ border-radius: 105%;
 border: 3px solid blue;
 }
 
+.main{
+  display: flex;
+  flex-direction: row;
+  overflow: unset;
+}
 
 
 footer {
@@ -32,9 +40,9 @@ footer {
 
 #content{
   background-color: lightblue;
- justify-content: flex-end;
+ display: flex;
+flex-direction: column;
 }
-
 
 
 
@@ -43,10 +51,15 @@ footer {
   background-color: lightblue;
   padding: 1rem ;
   color: black; 
+  
+ 
 }
 .nav{
   list-style-type: none;
   padding: 0%;
+  display: flex;
+  flex-direction: column;
+ 
 }
 #Contact details{
  color:cornflowerblue;
