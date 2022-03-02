@@ -6,6 +6,7 @@ body{
   background-color:cornflowerblue;
   display: flex;
   flex-direction: column;
+  
 }
 
 a:hover{color: whitesmoke;}
@@ -47,6 +48,8 @@ footer {
   background-color: lightblue;
  display: flex;
 flex-direction: column;
+
+
 margin:0.5rem;
 }
 
