@@ -20,6 +20,7 @@ header {
 #heading{
   font-family: sans-serif;
   font-size: 100%;
+  border: 50%;
 }
 #profilephoto{width:9rem;
 height: 9rem;
@@ -48,6 +49,8 @@ footer {
   background-color: lightblue;
  display: flex;
 flex-direction: column;
+flex: 1;
+border: 50%;
 
 
 margin:0.5rem;
