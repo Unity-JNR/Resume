@@ -6,6 +6,8 @@ body{
   background-color:cornflowerblue;
   display: flex;
   flex-direction: column;
+  text-align: justify;
+
   
 }
 
@@ -14,7 +16,6 @@ a:hover{color: whitesmoke;}
 header {
   text-align: center;
   background-color: lightblue;
-  justify-content: center;
   margin: auto;
 }
 #heading{
@@ -33,6 +34,7 @@ border: 3px solid blue;
   display: flex;
   flex-direction: row;
   overflow: unset;
+  text-align: justify;
   /* styles the main content of html */
 }
 
@@ -65,6 +67,7 @@ margin-left: 10.5;
   padding: 0.5rem ;
   color: black; 
   margin: .5rem;
+  text-align: justify;
   
  
 }
