@@ -94,6 +94,7 @@ margin-left: 10.5;
   width: 9.5rem;
   margin: 0.5rem;
   height: 9rem;
+mix-blend-mode: multiply;
   /* styles images of the footer */
 }
 
